@@ -1,4 +1,4 @@
-# Project references explanation (incremental build)
+# Project references explanation (incremental builds)
 
 Typescript config has root option named *references*. The option allows loading referenced modules by their compilled types (.d.ts instead of .ts).
 
