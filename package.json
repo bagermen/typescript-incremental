@@ -2,7 +2,8 @@
   "name": "typescript-references",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/src/app.js",
+  "types": "./dist/src/app.d.ts",
   "packageManager": "pnpm@8.6.7",
   "scripts": {
     "test": "tsc -b && jest"
