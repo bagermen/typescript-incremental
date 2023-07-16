@@ -1,0 +1,20 @@
+// this is the solution file and used by ts-node
+// ts-node is used to run jest.config.ts
+{
+  "files": [],
+  "include": [],
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "references": [
+    {
+      "path": "./src/tsconfig.app.json"
+    },
+    {
+      "path": "./src2/tsconfig.app2.json"
+    },
+    {
+      "path": "./tests/tsconfig.spec.json"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "../dist/src",
+        "composite": true,
+        "types": [
+            "node"
+        ],
+        "paths": {
+            "@app2/*": ["../src2/*"]
+        }
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "references": [
+        {
+            "path": "../src2/tsconfig.app2.json"
+        }
+    ]
+}

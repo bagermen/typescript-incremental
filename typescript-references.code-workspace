@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"jest.jestCommandLine": "pnpm exec jest",
+    	"jest.rootPath": "",
+		"typescript.tsdk": "node_modules\\typescript\\lib"
+	},
+	"extensions": {
+		"recommendations": [
+			"Orta.vscode-jest"
+		]
+	}
+}

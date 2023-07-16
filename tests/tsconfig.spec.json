@@ -1,0 +1,28 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "baseUrl": ".",
+        "outDir": "../dist/tests",
+        "composite": true,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "module": "commonjs",
+        "paths": {
+            "@app/*": ["../dist/src/*"]
+        }
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "**/*.d.ts"
+    ],
+    "references": [
+        {
+            "path": "../src/tsconfig.app.json"
+        }
+    ]
+}
