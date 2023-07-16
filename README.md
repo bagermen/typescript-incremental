@@ -1,6 +1,6 @@
 # Project References explanation
 
-Typescript config has root option *references*. The option allows loading referenced modules by their compilled types (.d.ts instead of .ts).
+Typescript config has root option named *references*. The option allows loading referenced modules by their compilled types (.d.ts instead of .ts).
 
 It makes possible to do incremental projects builds. To make the feature workable additional option named *composite* is added to *compilerOptions*.
 
@@ -20,7 +20,7 @@ If the project has referenced projects, those projects should be listed inside t
 
   Typescript has option *incremental*. This option is enabled for composite project regardless of it's settings. This option means that Typescript creates *.tsbuildinfo* files.
 
-  *.tsbuildinfo* files are used by typescript for detection of project changes and could be safely removed or placed into different place by option *tsBuildInfoFile*
+  *.tsbuildinfo* files are used by Typescript for detection of project changes and could be safely removed or placed into different place by option *tsBuildInfoFile*
 
 ## Links
 - [Official description](https://www.typescriptlang.org/docs/handbook/project-references.html)
